@@ -1,0 +1,18 @@
+venv311/
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+venv*/  # Matches venv311, venv38, etc.
+
+# Ignore credentials and temp files
+*.csv
+*.json
+*.xlsx
+data/
+.env
+.DS_Store
